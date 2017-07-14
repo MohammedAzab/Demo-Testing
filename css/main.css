@@ -606,7 +606,18 @@ body{
 		animation-delay:.6s;
 	}
 
-
+@media(max-width: 991px) {
+  .loading .back{
+    top: 30%;
+    left: 23%;
+  }
+}
+@media(max-width: 767px) {
+  .loading .back{
+    top: 30%;
+    left: 0%;
+  }
+}
 
 /* End Loading Section */
 
