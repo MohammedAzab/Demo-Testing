@@ -59,9 +59,18 @@ body{
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
+  display: block
 }
 .header .centring-vh{
   margin-top: 25vh
+}
+@media(max-width: 400px)  {
+  .header .centring-vh{
+    margin-top: 0 !important
+  }
+  .header h1 ~ .lead{
+    font-size: 20px !important;
+  }
 }
 @media(max-width:991px){
   .header .centring-vh{
@@ -118,6 +127,11 @@ body{
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
+}
+@media(max-width: 400px){
+  .header form{
+    width: 279px
+  }
 }
 .header form h2{
   margin-bottom: 30px;
@@ -615,7 +629,22 @@ body{
 @media(max-width: 767px) {
   .loading .back{
     top: 30%;
-    left: 0%;
+    left: 22%;
+  }
+}
+@media(max-width: 580px) {
+  .loading .back{
+    top: 30%;
+    left: 10%;
+  }
+}
+@media(max-width: 400px) {
+  .loading .back{
+    top: 30%;
+    left: 2%;
+  }
+  .back span{
+    padding: 0 10px;
   }
 }
 
