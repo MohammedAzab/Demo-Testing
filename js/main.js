@@ -29,6 +29,6 @@ $(function () {
     cursorborderradius:0
   });
   if ($(document).ready()) {
-    $('.loading').fadeOut(1000);
+    $('.loading').delay(8000).fadeOut(1000);
   }
 });
