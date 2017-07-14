@@ -65,8 +65,8 @@ body{
   margin-top: 25vh
 }
 @media(max-width: 400px)  {
-.header{
-    min-height:100vh;
+  .header{
+    min-height:120vh;
   }
   .header .centring-vh{
     margin-top: 0 !important
